@@ -60,6 +60,7 @@ import { NbOverlayService, NbOverlayRef, NbPortalDirective  } from '../cdk';
                    [attr.placeholder]="placeholder"
                    tabindex="-1"
                    (blur)="focusInput()"/>
+            <ul><li>hi</li></ul>
           </div>
           <span class="info">{{ hint }}</span>
         </form>
